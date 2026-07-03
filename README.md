@@ -1,2 +1,3 @@
-# script-for-build-a-boat-
-script for build a boat 
+!!!THIS IS A CHEAT/SCRIPT 
+IF YOURE WILL GET BANNED
+ITS NOT MY FAULT!!!
