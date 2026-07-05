@@ -42,7 +42,7 @@ local function createPlatform(position)
     platform.Anchored = true
     platform.CanCollide = true
     platform.Position = position - Vector3.new(0, 3, 0)
-    platform.Transparency = 0.5
+    platform.Transparency = 0.6
     platform.Name = "TempPlatform"
     platform.Parent = workspace
     return platform
@@ -56,11 +56,11 @@ local function runFarm()
             if not isRunning then break end
             local platform = createPlatform(pos)
             hrp.CFrame = CFrame.new(pos)
-            task.wait(0.3)
+            task.wait(0.2)
             if platform then platform:Destroy() end
         end
         if isRunning then
-            task.wait(10)
+            task.wait(8)
         end
     end
 end
